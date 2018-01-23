@@ -85,16 +85,10 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
+        title: "小胡子哥",
+        href: "http://www.barretlee.com/entry/"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Hacker News",
+        href: "https://news.ycombinator.com/news"
     }
 ]
