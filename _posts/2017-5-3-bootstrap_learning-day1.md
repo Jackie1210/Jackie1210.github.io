@@ -8,7 +8,6 @@ header-img: "img/home-bg-o.jpg"
 tags:
     - 前端开发
     - Bootstrap
-    - 翻译
 ---
 
 ## starter-template：
