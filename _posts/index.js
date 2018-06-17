@@ -1,55 +1,38 @@
-var makeCounter = function() {
-  var privateCounter = 0;
-  function changeBy(val) {
-    privateCounter += val;
-  }
-  return {
-    increment: function() {
-      changeBy(1);
-    },
-    decrement: function() {
-      changeBy(-1);
-    },
-    value: function() {
-      return privateCounter;
-    }
-  }  
-};
+function person(name){
+  this.name=name;
+  this.favColor=[];
+}
+person.prototype.getname=function(){
+  return this.name;
+}
+person.prototype.getFavColor=function(){
+  return this.favColor;
+}
 
-var Counter1 = makeCounter();
-var Counter2 = makeCounter();
-console.log(Counter1===Counter2);
-console.log(Counter1.value()); /* logs 0 */
-Counter1.increment();
-Counter1.increment();
-console.log(Counter1.value()); /* logs 2 */
-Counter1.decrement();
-console.log(Counter1.value()); /* logs 1 */
-console.log(Counter2.value()); /* logs 0 */
+person.prototype.setName=function(name){
+  this.name=name;
+}
 
-function createCounter() {
-  let counter = 0
-   const myFunction = function() {
-       counter = counter + 1
-      return counter
-     }
-     return myFunction
-   }
-   const increment = createCounter()
-  const c1 = increment()
-  const c2 = increment()
-  const c3 = increment()
-  console.log(c1===c2)
-  console.log('example increment', c1, c2, c3)
-  function f1(){
-    　　　　var n=999;
-    
-    　　　　function f2(){
-    　　　　　　console.log(n++);
-    　　　　}
-    　　　　return f2;
-    　　}
-    　　var result=f1();
-    　　result(); // 999
-    　　
-    　　result(); // 1000
+function man(name,age){
+  person.call(this,name);
+  this.sex="male";
+  this.age=age;
+}
+
+
+
+man.prototype=new person();
+let clong=new man('clong',22);
+let jackie=new man('jackie',21);
+let lily=new man('lily',29);
+console.log(clong.getname());
+console.log(jackie.getname());
+console.log(lily.name);
+console.log(clong.getFavColor());
+console.log(jackie.getFavColor());
+clong.name="clong"
+clong.favColor.push('red');
+console.log(clong.getname());
+console.log(jackie.getname());
+console.log(clong.getFavColor());
+console.log(jackie.getFavColor());
