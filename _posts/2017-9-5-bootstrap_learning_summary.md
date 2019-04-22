@@ -5,6 +5,7 @@ subtitle:   "小白对bootstrap的学习"
 date:       2017-09-05
 author:     "cl"
 header-img: "img/home-bg-o.jpg"
+catalog: true
 tags:
     - 前端开发
     - Bootstrap

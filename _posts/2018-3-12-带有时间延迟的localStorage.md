@@ -5,6 +5,7 @@ subtitle:   "localStorage可以实现永久保存，但是如果我想要对loca
 date:       2018-03-12
 author:     "cl"
 header-img: "img/home-bg-o.jpg"
+catalog: true
 tags:
     - HTML5
 ---

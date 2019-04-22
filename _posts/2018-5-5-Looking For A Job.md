@@ -5,6 +5,7 @@ subtitle:   "就这样，花了几个月的时间找实习，总结一下近期�
 date:       2018-05-05
 author:     "cl"
 header-img: "img/home-bg-o.jpg"
+catalog: true
 tags:
     - 随笔
 ---

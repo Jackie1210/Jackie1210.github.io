@@ -5,6 +5,7 @@ subtitle:   "把握写技术文章的要点"
 date:       2017-05-03
 author:     "cl"
 header-img: "img/home-bg-o.jpg"
+catalog: true
 tags:
     - 心得
     - 转载
