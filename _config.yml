@@ -1,7 +1,7 @@
 # Site settings
 title: C.L Blog
 SEOTitle: 陈龙的博客 | C.L Blog
-header-img: img/home-bg.jpg
+header-img: img/HOME.png
 email: jcignorance@outlook.com
 description: "前端小白，美学与技术，Software Engineer"
 keyword: "陈龙，chenlong,C.L,Jackie1210,jackie1210,@jackie1210,@Jackie1210"
@@ -15,7 +15,7 @@ RSS: false
 weibo_username:     jcignorance
 zhihu_username:     陈龙
 github_username:    Jakcie1210
-#twitter_username:  huxpro
+twitter_username:  Drango_chan
 #facebook_username:  huxpro
 
 
